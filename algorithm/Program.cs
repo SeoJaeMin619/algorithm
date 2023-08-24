@@ -12,3 +12,17 @@ public class Solution
                 return "Odd";
         }
     }
+ 
+
+class Program //chat GPT를 이용함
+{
+    static void Main(string[] args)
+    {
+        Solution solutionInstance = new Solution();
+
+        int myNumber = 8; // 원하는 숫자를 설정하세요
+        string result = solutionInstance.solution(myNumber);
+
+        Console.WriteLine("Result: " + result);
+    }
+}
