@@ -9,16 +9,17 @@ class Calculator
 {
     public static double Arr(int[] arr)
     {
-        int totalSum = 0;
+        int totalSum = 0; // 배열 요소들의 합을 저장할 변수 초기화
 
-        foreach (int num in arr)
+        foreach (int num in arr) // 배열의 각 요소를 순회하며 값을 더함
         {
-            totalSum += num; 
+            totalSum += num;  // 현재 요소 값을 합산
         }
 
         double average = (double)totalSum / arr.Length; 
-        return average;
+        return average;  // 평균값 반환
     }
+}
 }
 
 class Program
