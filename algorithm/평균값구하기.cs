@@ -20,7 +20,7 @@ class Calculator
         return average;  // 평균값 반환
     }
 }
-}
+
 
 class Program
 {
