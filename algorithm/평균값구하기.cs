@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 //평균값 구하기 알고리즘
 class Calculator
 {
-    public static double CalculateAverage(int[] arr)
+    public static double Arr(int[] arr)
     {
         int totalSum = 0;
 
@@ -27,7 +27,7 @@ class Program
     {
         int[] arr = { 1, 2, 3, 4, 5 };
 
-        double avg = Calculator.CalculateAverage(arr);
+        double avg = Calculator.Arr(arr);
         Console.WriteLine("평균값: " + avg);
     }
 }
