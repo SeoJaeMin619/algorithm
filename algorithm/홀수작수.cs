@@ -2,7 +2,8 @@
 using System.Reflection.Metadata.Ecma335;
 
 
-public class Solution
+//홀수짝수 알고리즘
+public class Solution 
     {
         public string solution(int num)
         {
