@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//평균값 구하기 알고리즘
 class Calculator
 {
     public static double CalculateAverage(int[] arr)
