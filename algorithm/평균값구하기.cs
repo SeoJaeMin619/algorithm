@@ -23,7 +23,7 @@ class Calculator
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         int[] arr = { 1, 2, 3, 4, 5 };
 
