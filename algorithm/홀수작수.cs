@@ -14,7 +14,7 @@ public class Solution
     }
  
 
-class Program //chat GPT를 이용함
+class 홀수작수 //chat GPT를 이용함
 {
     static void Main(string[] args)
     {
