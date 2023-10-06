@@ -9,14 +9,14 @@ public class Solution17
     {
         string answer = ""; //결과를 저장할 빈문자열 선언
 
-        string temp_str = phone_number.Substring(phone_number.Length - 4, 4);
+        string temp_str = phone_number.Substring(phone_number.Length - 4, 4); //앞문자열을 *로 채움
 
-        for (int i = 0; i < phone_number.Length - 4; ++i)
+        for (int i = 0; i < phone_number.Length - 4; ++i) //추출한 나머지4개를 합침
         {
             answer += "*";
 
         }
         answer += temp_str;
-        return answer;
+        return answer; 
     }
 }
